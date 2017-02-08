@@ -1,0 +1,67 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+}
+
+.isabel {
+	background-image: url(../images/isabel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 853px;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Cutive Mono', monospace;
+	text-align: center;
+	color: #083444;
+}
+
+p {
+	font-family: 'Cutive Mono', monospace;
+	text-align: justify;
+	width: 650px;
+	margin: auto;
+}
+
+.para-column {
+	column-count: 2;
+	column-gap: 30px;
+}
+
+.links-para {
+	font-family: 'Cutive Mono', monospace;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #cac7b0;
+}
+
+footer {
+	font-family: 'Cutive Mono', monospace;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
