@@ -1,3 +1,9 @@
+/*////////////////////////
+
+GLOBAL STYLING:
+
+///////////////////////*/
+
 body {
 	background-image: url(../images/background.jpg);
 	background-repeat: repeat;
@@ -5,13 +11,18 @@ body {
 	padding: 0;
 }
 
-.isabel {
-	background-image: url(../images/isabel.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 853px;
-
+footer {
+	font-family: 'Cutive Mono', monospace;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
+
+/*////////////////////////
+
+TEXT STYLES:
+
+///////////////////////*/
 
 h1, h2, h3 {
 	font-family: 'Cutive Mono', monospace;
@@ -37,31 +48,58 @@ p {
 	text-align: center;
 }
 
-a {
+.links-para a {
 	color: black;
 	text-decoration: none;
 }
 
-a:hover {
+.links-para a:hover {
 	color: #cac7b0;
 }
 
-footer {
-	font-family: 'Cutive Mono', monospace;
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 20px;
+/*////////////////////////
 
+IMAGE STYLES:
+
+///////////////////////*/
+
+.isabel {
+	background-image: url(../images/isabel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 853px;
 }
 
+.project-1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	height: 250px;
+}
 
+.project-2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	height: 250px;
+}
 
+.email-icon {
+	background-image: url(../images/email.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 24px;
+	width: 32px;
+	margin-bottom: 3px;
+}
 
-
-
-
-
-
-
-
-
+.github-icon {
+	background-image: url(../images/github.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin-top: 10px;
+}
